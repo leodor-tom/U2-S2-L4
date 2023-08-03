@@ -1,0 +1,109 @@
+@import "_bootstrap-override.scss";
+body {
+  font-family: "Inter", sans-serif;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  .account {
+    display: flex;
+    .bell {
+      background-color: hsl(252, 14%, 93%);
+      width: 50px;
+      border-radius: 50%;
+      text-align: center;
+      margin-right: 10px;
+      i {
+        font-size: 30px;
+      }
+    }
+    .account-img {
+      margin-right: 10px;
+      img {
+        border-radius: 50%;
+        width: 50px;
+      }
+    }
+  }
+}
+header {
+  display: flex;
+  section {
+    width: 50%;
+    margin-left: 100px;
+    p {
+      color: scale-color($color: #7451fe, $lightness: 50%);
+      width: 70%;
+    }
+    button {
+      width: 200px;
+      height: 60px;
+    }
+  }
+}
+
+.under-hero {
+  display: flex;
+  padding-inline: 200px;
+  padding-block: 30px;
+  justify-content: space-between;
+  .logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffeeda;
+    justify-content: center;
+    img {
+      width: 30px;
+    }
+  }
+  .cont {
+    h3 {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    p {
+      color: scale-color($color: black, $lightness: 50%);
+      font-size: 10px;
+    }
+  }
+}
+
+.section {
+  width: 1000px;
+  margin-inline: 200px;
+  h5 {
+    font-size: 1rem;
+  }
+  .card-text {
+    font-size: 0.75rem;
+    padding-inline: 0.25rem;
+    margin-top: 1.5rem;
+    span {
+      padding-inline: 0.5rem;
+    }
+    img {
+      width: 15px;
+    }
+    h4 {
+      font-size: 0.75rem;
+    }
+    .line {
+      font-weight: 400;
+      text-decoration: line-through;
+    }
+  }
+  .card-foot {
+    border-top: solid 1px #f2f2f5;
+
+    img {
+      width: 25px;
+      border-radius: 50%;
+      margin-top: 0.25rem;
+    }
+    span {
+      width: 0.5rem;
+    }
+  }
+}
